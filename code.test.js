@@ -28,3 +28,16 @@ const test =
         return JSON.stringify(list) == JSON.stringify(convertToAdjList(mat));
     });
 jsc.assert(test, { tests: 1000 });
+
+// Example usage and testing
+const adjacencyMatrix = [
+    [0, 1, 0, 1],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1],
+    [0, 0, 0, 0],
+];
+
+// Get the adjacency list
+const adjacencyList = convertToAdjList(adjacencyMatrix);
+
+
