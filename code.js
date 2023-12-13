@@ -27,23 +27,6 @@ function convertToAdjList(adjMatrix) {
     // Return the final adjacency list
     return adjList;
 }
-
-// Example usage and testing
-const adjacencyMatrix = [
-    [0, 1, 0, 1],
-    [0, 0, 1, 0],
-    [0, 0, 0, 1],
-    [0, 0, 0, 0],
-];
-
-// Get the adjacency list
-const adjacencyList = convertToAdjList(adjacencyMatrix);
-
-// Log the resulting adjacency list with row indices and connected nodes
-for (let i = 0; i < adjacencyList.length; i++) {
-    console.log(i, adjacencyList[i]);
-}
-
 // I was unsure how to start this at first. I looked through a few of the other students repositories.
 // graph-representations-Bruh2117 is the one that made the most sense to me and I based my code off that and tried to also change a few things to make it more
 // easy for me to understand. I added comments and a test case as well.  
